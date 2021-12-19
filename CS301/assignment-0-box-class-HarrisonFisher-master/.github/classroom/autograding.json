@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Default constructor - 1 point",
+      "setup": "cmake .;make Constructor_Tests",
+      "run": "timeout 5m ./Constructor_Tests \"Constructor_Tests\" -c \"Default constructor - 1 point\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Good Values, Box(length, width, height) - 1 point",
+      "setup": "cmake .;make Constructor_Tests",
+      "run": "timeout 5m ./Constructor_Tests \"Constructor_Tests\" -c \"Good Values, Box(length, width, height) - 1 point\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Bad Values, Box(length, width, height) - 1 point",
+      "setup": "cmake .;make Constructor_Tests",
+      "run": "timeout 5m ./Constructor_Tests \"Constructor_Tests\" -c \"Bad Values, Box(length, width, height) - 1 point\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Testing Volume - 1 Point",
+      "setup": "cmake .;make Volume_Area_Tests",
+      "run": "timeout 5m ./Volume_Area_Tests \"Volume_Area_Tests\" -c \"Testing Volume - 1 Point\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Testing Surface Area - 1 Point",
+      "setup": "cmake .;make Volume_Area_Tests",
+      "run": "timeout 5m ./Volume_Area_Tests \"Volume_Area_Tests\" -c \"Testing Surface Area - 1 Point\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Testing Getters/Setters - 2 point",
+      "setup": "cmake .;make Getters_Setters_Tests",
+      "run": "timeout 5m ./Getters_Setters_Tests \"Getters_Setters_Tests\" -c \"Testing Getters/Setters - 2 point\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Testing Setters, Bad Values - 1 point",
+      "setup": "cmake .;make Getters_Setters_Tests",
+      "run": "timeout 5m ./Getters_Setters_Tests \"Getters_Setters_Tests\" -c \"Testing Setters, Bad Values - 1 point\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Testing Resize - 1 point",
+      "setup": "cmake .;make Getters_Setters_Tests",
+      "run": "timeout 5m ./Getters_Setters_Tests \"Getters_Setters_Tests\" -c \"Testing Resize - 1 point\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }
+  ]
+}

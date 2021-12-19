@@ -1,0 +1,224 @@
+{
+  "tests": [
+    {
+      "name": "Test that default length is 0 - 2pt",
+      "setup": "cmake .;make Constructor_Test",
+      "run": "timeout 5m ./Constructor_Test \"Constructor Tests\" -c \"Test that default length is 0 - 2pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Testing ChunkList(int[], int) - 3pt",
+      "setup": "cmake .;make Constructor_Test",
+      "run": "timeout 5m ./Constructor_Test \"Constructor Tests\" -c \"Testing ChunkList(int[], int) - 3pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Testing bad array size - 2pt",
+      "setup": "cmake .;make Constructor_Test",
+      "run": "timeout 5m ./Constructor_Test \"Constructor Tests\" -c \"Testing bad array size - 2pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Basic Append - 3pt",
+      "setup": "cmake .;make Append_Remove_Test",
+      "run": "timeout 5m ./Append_Remove_Test \"Append Remove Tests\" -c \"Basic Append - 3pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Remove from empty list - 2pt",
+      "setup": "cmake .;make Append_Remove_Test",
+      "run": "timeout 5m ./Append_Remove_Test \"Append Remove Tests\" -c \"Remove from empty list - 2pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Remove half from middle node - 2pt",
+      "setup": "cmake .;make Append_Remove_Test",
+      "run": "timeout 5m ./Append_Remove_Test \"Append Remove Tests\" -c \"Remove half from middle node - 2pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Remove middle node - 3pt",
+      "setup": "cmake .;make Append_Remove_Test",
+      "run": "timeout 5m ./Append_Remove_Test \"Append Remove Tests\" -c \"Remove middle node - 3pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Remove head node - 3pt",
+      "setup": "cmake .;make Append_Remove_Test",
+      "run": "timeout 5m ./Append_Remove_Test \"Append Remove Tests\" -c \"Remove head node - 3pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Remove last node - 3pt",
+      "setup": "cmake .;make Append_Remove_Test",
+      "run": "timeout 5m ./Append_Remove_Test \"Append Remove Tests\" -c \"Remove last node - 3pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Remove stress test - 3pt",
+      "setup": "cmake .;make Append_Remove_Test",
+      "run": "timeout 5m ./Append_Remove_Test \"Append Remove Tests\" -c \"Remove stress test - 3pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Test basic Index - 3pt",
+      "setup": "cmake .;make Index_Test",
+      "run": "timeout 5m ./Index_Test \"Index Tests\" -c \"Test basic Index - 3pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Test Index after value removal - 2pt",
+      "setup": "cmake .;make Index_Test",
+      "run": "timeout 5m ./Index_Test \"Index Tests\" -c \"Test Index after value removal - 2pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test index < 0 - 2pt",
+      "setup": "cmake .;make Index_Test",
+      "run": "timeout 5m ./Index_Test \"Index Tests\" -c \"Test index < 0 - 2pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test index > length - 2pt",
+      "setup": "cmake .;make Index_Test",
+      "run": "timeout 5m ./Index_Test \"Index Tests\" -c \"Test index > length - 2pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test empty list - 2pt",
+      "setup": "cmake .;make Index_Test",
+      "run": "timeout 5m ./Index_Test \"Index Tests\" -c \"Test empty list\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test basic Iterator - 2pt",
+      "setup": "cmake .;make Iterator_Test",
+      "run": "timeout 5m ./Iterator_Test \"Iterator Tests\" -c \"Test basic Iterator\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test Iterator with Contains - 2pt",
+      "setup": "cmake .;make Iterator_Test",
+      "run": "timeout 5m ./Iterator_Test \"Iterator Tests\" -c \"Test Iterator with Contains\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test Iterator after value removal - 2pt",
+      "setup": "cmake .;make Iterator_Test",
+      "run": "timeout 5m ./Iterator_Test \"Iterator Tests\" -c \"Test Iterator after value removal\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test Constructor initializes iterator - 2pt",
+      "setup": "cmake .;make Iterator_Test",
+      "run": "timeout 5m ./Iterator_Test \"Iterator Tests\" -c \"Test Constructor initializes iterator - 2pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test empty list - 1pt",
+      "setup": "cmake .;make Iterator_Test",
+      "run": "timeout 5m ./Iterator_Test \"Iterator Tests\" -c \"Test empty list - 2pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test out of bounds - 2pt",
+      "setup": "cmake .;make Iterator_Test",
+      "run": "timeout 5m ./Iterator_Test \"Iterator Tests\" -c \"Test out of bounds - 2pt\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Template Test - 2pt",
+      "setup": "cmake .;make Template_Test",
+      "run": "timeout 5m ./Template_Test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    }
+  ]
+}
